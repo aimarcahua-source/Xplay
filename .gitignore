@@ -1,0 +1,12 @@
+@"
+*.zip
+*.sql
+*.wpress
+*.log
+*.mp4
+wp-content/uploads/
+wp-content/backups/
+wp-content/updraft/
+wp-content/ai1wm-backups/
+wp-content/cache/
+"@ | Out-File -Encoding ascii .gitignore

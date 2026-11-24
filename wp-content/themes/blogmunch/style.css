@@ -1,0 +1,730 @@
+/*
+Theme Name: 	   BlogMunch
+Text Domain: 	   blogmunch
+Template: 			newsmunch
+Version:            0.5
+Tested up to:       7.1
+Requires at least:  4.7
+Requires PHP:       7.0
+Author:             DesertThemes
+Author URI:         https://desertthemes.com/
+Theme URI:          https://desertthemes.com/themes/blogmunch-free/
+Description:        BlogMunch is a fast, clean, Best Responsive News Magazine WordPress theme. BlogMunch is suitable for dynamic news, newspapers, magazine, publishers, blogs, editors, online and gaming magazines, newsportals,personal blogs, newspaper, publishing or review siteand any creative website. With its modern and clean design, BlogMunch offers a visually appealing layout that is easy to navigate, making it ideal for delivering content to your readers. This theme comes equipped with a range of customizable options, custom widgets, and color schemes, allowing you to tailor your website to your specific needs and branding. It also supports various post formats, making it easy to present a variety of content types, from articles and videos to images and galleries. BlogMunch is optimized for speed and SEO, ensuring that your website loads quickly and ranks well in search engine results. Its responsive design ensures that your content looks great on all devices, whether it's a desktop computer, tablet, or smartphone. BlogMunch demos https://preview.desertthemes.com/newsmunch/
+Tags:               blog, e-commerce, entertainment, grid-layout, one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-logo, custom-menu, featured-images, featured-image-header, flexible-header, post-formats, rtl-language-support, translation-ready, theme-options, threaded-comments, footer-widgets
+License: GPLv3 or later
+License URI:  https://www.gnu.org/licenses/gpl-3.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --dt-main-rgb: 215, 4, 101;
+    --dt-secondary-color: #302D55;
+    --dt-title-family: "Josefin Sans", sans-serif;
+    --dt-base-family: "Josefin Sans", sans-serif;
+}
+
+button[type="submit"], button,
+input[type="button"], input[type="reset"],
+input[type="submit"], .dt-btn, .dt-load-more a,
+.button:not(.add_to_cart_button) {
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+/* Header 14 */
+
+.header--fourteen .dt_navbar-nav .dt_home-icon a:focus {
+    outline: 1px dotted;
+    outline-offset: -4px;
+}
+
+.header--fourteen .dt_navbar-wrapper.is--sticky.on .dt_navbar-inner {
+    display: none;
+}
+
+.header--fourteen.menu_active-default .dt_navbar-nav .dt_home-icon a,
+.header--fourteen.menu_active-one .dt_navbar-nav .dt_home-icon a,
+.header--fourteen.menu_active-two .dt_navbar-nav .dt_home-icon a,
+.header--fourteen.menu_active-three .dt_navbar-nav .dt_navbar-mainmenu>li.active>a,
+.header--fourteen.menu_active-three .dt_navbar-nav .dt_navbar-mainmenu>li:hover>a,
+.header--fourteen.menu_active-three .dt_navbar-nav .dt_navbar-mainmenu>li.focus>a,
+.header--fourteen.menu_active-three .dt_navbar-nav .dt_home-icon a {
+    background-color: var(--dt-main-color);
+}
+
+/*
+.header--fourteen .dt_navbar-menu .dt_navbar-sidebar-item .dt_navbar-sidebar-toggle,
+.header--fourteen .dt_navbar-sidebar-toggle:hover .dt_navbar-sidebar-toggle-inner,
+.header--fourteen .dt_navbar-sidebar-toggle:focus .dt_navbar-sidebar-toggle-inner,
+.header--fourteen .dt_navbar-nav .dt_home-icon a,
+.header--fourteen .dt_navbar-nav .dt_navbar-mainmenu>.menu-item-has-children>a:after,
+.header--fourteen .dt_navbar-nav .dt_navbar-mainmenu>li>a,
+.header--fourteen .dt_navbar-nav .dt_navbar-mainmenu>li.active>a,
+.header--fourteen .dt_navbar-nav .dt_navbar-mainmenu>li.focus>a,
+.header--fourteen .dt_navbar-nav .dt_navbar-mainmenu>li:hover>a,
+.header--fourteen .dt_navbar-nav .dt_navbar-mainmenu>li:not(:hover, .focus, .active)>a {
+    color: #fff;
+}
+*/
+
+@media (min-width: 62em) {
+    .header--fourteen sup.menu-badge {
+        top: -1px;
+    }
+}
+
+.header--fourteen .dt_navbar-menus {
+    background-color: #f1f6ff;
+}
+
+.header--fourteen .dt_navbar-wrapper .dt_navbar-inner .dt-row .dt-col-md:first-child .dt_navbar-right > ul {
+    padding-left: 0;
+    padding-right: 1.2rem;
+    justify-content: start;
+}
+
+.header--fourteen .dt_navbar-wrapper .dt_navbar-inner .site--logo{
+    text-align: center;
+}
+
+.header--fourteen {
+    background-color: #fff;
+}
+
+.dark .header--fourteen {
+    background-color: var(--dt-secondary-color);
+}
+
+.header--fourteen .dt_header-navwrapper .dt_navbar-inner .dt-py-5 {
+    padding-top: 6rem;
+}
+
+.header--fourteen .dt_header-topbar + .dt_header-navwrapper .dt_navbar-inner .dt-py-5 {
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+}
+
+.header--fourteen .dt_navbar-wrapper .dt_navbar-menu {
+    justify-content: space-between;
+}
+
+.header--fourteen .dt_navbar-menus .dt_navbar-menu .dt_navbar-nav {
+    padding: 0 4.1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.header--fourteen .dt_navbar-menus .dt_navbar-menu .dt_navbar-nav .dt_home-icon {
+    display: none;
+}
+
+.header--fourteen .dt_navbar-subscribe-item .dt-subscribe,
+.header--fourteen .dt_navbar-login-item .dt-user-login,
+.header--fourteen .dt_navbar-cart-item .dt_navbar-cart-icon,
+.header--fourteen .dt_navbar-search-item button.dt_navbar-search-toggle {
+    width: 3.8rem;
+    height: 3.8rem;
+    box-shadow: none;
+}
+
+body.dark .header--fourteen .dt_navbar-nav .dt_navbar-mainmenu>li:not(.active, .focus)>a:not(:hover, :focus) {
+    color: var(--dt-secondary-color);
+}
+
+body.dark .header--fourteen .dt_navbar-nav .dt_navbar-mainmenu .menu-item-has-children:not(:hover, .focus, .active)>a:after {
+    color: currentColor;
+}
+
+@media (min-width: 62em) {
+    .header--fourteen .dt_navbar-subscribe-item .dt-subscribe,
+    .header--fourteen .dt_navbar-login-item .dt-user-login,
+    .header--fourteen .dt_navbar-cart-item .dt_navbar-cart-icon,
+    .header--fourteen .dt_navbar-search-item button.dt_navbar-search-toggle {
+        background-color: transparent;
+        border: solid 1px rgba(119, 119, 119, 0.4);
+    }
+    
+    .header--fourteen .dt_navbar-subscribe-item .dt-subscribe,
+    .header--fourteen .dt_navbar-search-item button.dt_navbar-search-toggle {
+        color: var(--dt-secondary-color);
+        border: solid 1px rgb(119, 119, 119, 0.4);
+    }
+
+    .header--fourteen .dt_navbar-login-item .dt-user-login,
+    .header--fourteen .dt_navbar-cart-item .dt_navbar-cart-icon {
+        color: var(--dt-secondary-color);
+    }
+    
+    body.dark .header--fourteen .dt_navbar-login-item .dt-user-login,
+    body.dark .header--fourteen .dt_navbar-cart-item .dt_navbar-cart-icon {
+        color: #fff;
+    }
+}
+
+.menu_active-three .dt_navbar-nav .dt_home-icon a,
+.menu_active-three .dt_navbar-nav .dt_navbar-mainmenu>li>a {
+    padding: 2.2rem 2rem;
+}
+
+#content {
+    margin-top: 20px;
+}
+
+/* Header Fourteen + Marquee */
+
+.header--fourteen + .exclusive-wrapper {
+    background-color: transparent;
+    box-shadow: none;
+    margin-bottom: 20px;
+}
+
+.header--fourteen + .exclusive-wrapper .exclusive-posts {
+    padding: 1rem;
+    margin-top: 20px;
+    background: var(--dt-white-color);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.header--fourteen + .exclusive-wrapper .exclusive-tags + .exclusive-posts {
+    margin-top: 0;
+}
+
+.header--fourteen + .exclusive-wrapper .exclusive-posts .title {
+    line-height: 40px;
+}
+
+.header--fourteen + .exclusive-wrapper .exclusive-posts .marquee>div,
+.header--fourteen + .exclusive-wrapper .exclusive-posts .marquee .js-marquee {
+    height: 40px;
+}
+
+.header--fourteen + .exclusive-wrapper .exclusive-posts .marquee a {
+    padding: 0 18px;
+}
+
+/* Section title five */
+
+.main-banner-section .post-carousel-banner .slick-slide {
+    margin: 0 12px;
+}
+
+.main-banner-section .post-carousel-banner .slick-list {
+    margin: 0 -12px;
+}
+
+.main-banner-section .post-carousel-banner .slick-prev,
+.main-banner-section .post-carousel-banner .slick-next {
+    width: 50px;
+    height: 50px;
+    line-height: 64px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.18) 0px 1px 3px;
+}
+
+.main-banner-section .post-carousel-banner .slick-prev {
+    left: -26px;
+}
+
+.main-banner-section .post-carousel-banner .slick-next {
+    right: -26px;
+}
+
+.wp-block-categories-list.has-background {
+    padding: 1rem;
+}
+
+.wp-block-latest-comments.has-background {
+    padding: 1rem;
+}
+
+.wp-block-file a {
+    text-decoration: none;
+}
+
+.wp-block-file.has-background {
+    padding: 1rem;
+}
+
+.woocommerce .summary .product_meta>span a {
+    text-decoration: none;
+}
+
+table.wc-block-cart-items .wc-block-cart-items__header th {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.wc-block-components-sidebar-layout.wc-block-cart .wc-block-cart__totals-title {
+    font-weight: 700;
+}
+
+.wc-block-components-totals-footer-item .wc-block-components-totals-item__label, 
+.wc-block-components-totals-footer-item .wc-block-components-totals-item__value {
+    font-weight: 600;
+}
+
+.wp-block-woocommerce-customer-account.has-background {
+    padding: 1rem;
+}
+
+.wp-block-woocommerce-customer-account a:focus {
+    text-decoration: underline !important;
+}
+
+.wc-block-customer-account__link {
+    text-decoration: none;
+}
+
+.dt_footer .widget.widget_products ins .woocommerce-Price-amount.amount {
+    color:#fff;
+}
+
+.woocommerce ul.products li.product a:focus .woocommerce-loop-product__title {
+    color: var(--dt-main-color);
+}
+
+.wp-block-list li a:not(:hover):not(:focus) {
+    text-decoration: none;
+}
+
+.wp-block-search.wp-block-search__button-only .wp-block-search__button {
+    background-color: var(--dt-main-color);
+}
+
+.wp-block-accordion-heading.has-background .wp-block-accordion-heading__toggle {
+    padding: 1rem;
+}
+
+.wp-block-accordion-heading__toggle:hover .wp-block-accordion-heading__toggle-title {
+    text-decoration: none;
+}
+
+/* Glassmorphism */
+
+.background-wrapper {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    z-index: -1;
+    /* Base atmosphere */
+    background:
+        radial-gradient(
+            circle at 10% 15%,
+            rgba(239, 35, 60, 0.055),
+            transparent 28%
+        ),
+        radial-gradient(
+            circle at 90% 20%,
+            rgba(4, 134, 139, 0.055),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 50% 90%,
+            rgba(124, 58, 237, 0.035),
+            transparent 35%
+        );
+}
+
+/* =========================================================
+   COMMON SHAPE STYLE
+========================================================= */
+
+.background-wrapper .square,
+.background-wrapper .circle,
+.background-wrapper .triangle {
+    position: absolute;
+    display: block;
+    pointer-events: none;
+    /* Prevent sharp geometric shapes */
+    opacity: 0;
+    will-change: transform;
+    transform-origin: center;
+}
+
+
+/* =========================================================
+   SQUARES
+   Large soft red / purple / teal blobs
+========================================================= */
+
+.background-wrapper .square {
+    width: 360px;
+    height: 360px;
+    border-radius: 45% 55% 60% 40%;
+    background: rgba(239, 35, 60, 0.075);
+    filter: blur(95px);
+    animation:
+        premiumSquareFloat
+        18s
+        ease-in-out
+        infinite
+        alternate;
+}
+
+/* Red glow */
+
+.background-wrapper .square:nth-child(1) {
+    top: -120px;
+    left: -120px;
+    opacity: 0.8;
+    background: rgba(239, 35, 60, 0.085);
+}
+
+/* Purple glow */
+
+.background-wrapper .square:nth-child(2) {
+    top: 28%;
+    left: 18%;
+    opacity: 0.45;
+    background: rgba(124, 58, 237, 0.055);
+    animation-delay: -5s;
+}
+
+/* Teal glow */
+
+.background-wrapper .square:nth-child(3) {
+    top: 8%;
+    right: -130px;
+    opacity: 0.75;
+    background: rgba(4, 134, 139, 0.085);
+    animation-delay: -9s;
+}
+
+/* Bottom red glow */
+
+.background-wrapper .square:nth-child(4) {
+    right: 10%;
+    bottom: -180px;
+    opacity: 0.45;
+    background: rgba(239, 35, 60, 0.055);
+    animation-delay: -12s;
+}
+
+/* Bottom purple glow */
+
+.background-wrapper .square:nth-child(5) {
+    left: 38%;
+    bottom: -80px;
+    opacity: 0.35;
+    background: rgba(124, 58, 237, 0.045);
+    animation-delay: -15s;
+}
+
+/* =========================================================
+   CIRCLES
+   Secondary soft light
+========================================================= */
+
+.background-wrapper .circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: rgba(4, 134, 139, 0.065);
+    filter: blur(90px);
+    animation:
+        premiumCircleFloat
+        22s
+        ease-in-out
+        infinite
+        alternate;
+}
+
+/* Top-right */
+
+.background-wrapper .circle:nth-child(1) {
+    top: 12%;
+    right: 12%;
+    opacity: 0.65;
+}
+
+/* Left-middle */
+
+.background-wrapper .circle:nth-child(2) {
+    top: 52%;
+    left: -80px;
+    opacity: 0.55;
+    background: rgba(239, 35, 60, 0.055);
+    animation-delay: -5s;
+}
+
+/* Center purple */
+
+.background-wrapper .circle:nth-child(3) {
+    top: 38%;
+    left: 44%;
+    width: 240px;
+    height: 240px;
+    opacity: 0.35;
+    background: rgba(124, 58, 237, 0.045);
+    animation-delay: -9s;
+}
+
+/* Bottom-right teal */
+
+.background-wrapper .circle:nth-child(4) {
+    right: 20%;
+    bottom: 2%;
+    opacity: 0.5;
+    background: rgba(4, 134, 139, 0.055);
+    animation-delay: -14s;
+}
+
+/* Small top-center glow */
+
+.background-wrapper .circle:nth-child(5) {
+    top: -80px;
+    left: 38%;
+    width: 220px;
+    height: 220px;
+    opacity: 0.3;
+    background: rgba(239, 35, 60, 0.04);
+    animation-delay: -18s;
+}
+
+/* =========================================================
+   TRIANGLES
+   Almost invisible texture layer
+========================================================= */
+
+.background-wrapper .triangle {
+    width: 220px;
+    height: 220px;
+    background: rgba(124, 58, 237, 0.025);
+    clip-path: polygon(
+        50% 0%,
+        100% 100%,
+        0% 100%
+    );
+    filter: blur(55px);
+    animation:
+        premiumTriangleFloat
+        26s
+        ease-in-out
+        infinite
+        alternate;
+}
+
+
+/* Triangle 1 */
+
+.background-wrapper .triangle:nth-child(1) {
+    top: 8%;
+    left: 22%;
+    opacity: 0.35;
+}
+
+/* Triangle 2 */
+
+.background-wrapper .triangle:nth-child(2) {
+    top: 58%;
+    right: 12%;
+    opacity: 0.3;
+    background: rgba(4, 134, 139, 0.025);
+    animation-delay: -6s;
+}
+
+/* Triangle 3 */
+
+.background-wrapper .triangle:nth-child(3) {
+    bottom: 8%;
+    left: 12%;
+    opacity: 0.3;
+    background: rgba(239, 35, 60, 0.025);
+    animation-delay: -11s;
+}
+
+/* Triangle 4 */
+
+.background-wrapper .triangle:nth-child(4) {
+    top: 32%;
+    right: 30%;
+    opacity: 0.22;
+    animation-delay: -17s;
+}
+
+/* Triangle 5 */
+
+.background-wrapper .triangle:nth-child(5) {
+    right: 42%;
+    bottom: 18%;
+    opacity: 0.18;
+    background: rgba(4, 134, 139, 0.02);
+    animation-delay: -21s;
+}
+
+
+/* =========================================================
+   ANIMATIONS
+========================================================= */
+
+@keyframes premiumSquareFloat {
+    0% {
+        transform:
+            translate3d(0, 0, 0)
+            rotate(0deg)
+            scale(0.96);
+    }
+    50% {
+        transform:
+            translate3d(45px, -35px, 0)
+            rotate(8deg)
+            scale(1.05);
+    }
+    100% {
+        transform:
+            translate3d(-35px, 45px, 0)
+            rotate(-6deg)
+            scale(0.98);
+    }
+}
+
+@keyframes premiumCircleFloat {
+    0% {
+        transform:
+            translate3d(0, 0, 0)
+            scale(0.94);
+    }
+    50% {
+        transform:
+            translate3d(-45px, 35px, 0)
+            scale(1.08);
+    }
+    100% {
+        transform:
+            translate3d(35px, -45px, 0)
+            scale(0.97);
+    }
+}
+
+@keyframes premiumTriangleFloat {
+    0% {
+        transform:
+            translate3d(0, 0, 0)
+            rotate(0deg)
+            scale(0.95);
+    }
+    50% {
+        transform:
+            translate3d(35px, -30px, 0)
+            rotate(12deg)
+            scale(1.05);
+    }
+    100% {
+        transform:
+            translate3d(-30px, 35px, 0)
+            rotate(-10deg)
+            scale(0.97);
+    }
+}
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (min-width: 768px) {
+    .background-wrapper .square {
+        width: 420px;
+        height: 420px;
+        filter: blur(110px);
+    }
+    .background-wrapper .circle {
+        width: 340px;
+        height: 340px;
+        filter: blur(100px);
+    }
+    .background-wrapper .triangle {
+        width: 240px;
+        height: 240px;
+        filter: blur(65px);
+    }
+}
+
+/* =========================================================
+   DESKTOP
+========================================================= */
+
+@media (min-width: 1200px) {
+    .background-wrapper .square {
+        width: 480px;
+        height: 480px;
+        filter: blur(125px);
+    }
+    .background-wrapper .circle {
+        width: 380px;
+        height: 380px;
+        filter: blur(110px);
+    }
+    .background-wrapper .triangle {
+        width: 270px;
+        height: 270px;
+        filter: blur(70px);
+    }
+}
+
+/* =========================================================
+   LARGE SCREENS
+========================================================= */
+
+@media (min-width: 1600px) {
+    .background-wrapper .square {
+        width: 540px;
+        height: 540px;
+    }
+    .background-wrapper .circle {
+        width: 420px;
+        height: 420px;
+    }
+}
+
+/* =========================================================
+   MOBILE
+   Keep background lighter for performance/readability
+========================================================= */
+
+@media (max-width: 767px) {
+    .background-wrapper .square {
+        width: 260px;
+        height: 260px;
+        filter: blur(75px);
+    }
+    .background-wrapper .circle {
+        width: 210px;
+        height: 210px;
+        filter: blur(65px);
+    }
+    .background-wrapper .triangle {
+        width: 160px;
+        height: 160px;
+        filter: blur(45px);
+    }
+    .background-wrapper .square:nth-child(2),
+    .background-wrapper .square:nth-child(5),
+    .background-wrapper .triangle:nth-child(4),
+    .background-wrapper .triangle:nth-child(5) {
+        display: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .background-wrapper .square,
+    .background-wrapper .circle,
+    .background-wrapper .triangle {
+        animation: none;
+    }
+}
+
+.wp-block-accordion-heading__toggle {
+    padding: 1rem;
+}
+
+.wp-block-comments.has-background {
+    padding: 1rem;
+}

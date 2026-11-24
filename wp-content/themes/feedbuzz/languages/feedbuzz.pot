@@ -1,0 +1,678 @@
+# Translations template for FeedBuzz.
+# Copyright (C) 2026 yineali
+# This file is distributed under the same license as the FeedBuzz project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FeedBuzz 1.0.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/feedbuzz\n"
+"POT-Creation-Date: 2026-09-15 22:11+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.18.0\n"
+
+#: header.php:89
+#, python-format
+msgid "%s (opens in a new tab)"
+msgstr ""
+
+#: inc/template-tags.php:848
+#, python-format
+msgid "%s ago"
+msgstr ""
+
+#: single.php:78
+#, python-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: front-page.php:223 single.php:68
+#, python-format
+msgid "%s minute read"
+msgid_plural "%s minutes read"
+msgstr[0] ""
+msgstr[1] ""
+
+#: footer.php:122
+msgid ". All rights reserved."
+msgstr ""
+
+#: style.css:1
+msgid ""
+"A colorful, responsive news and magazine theme with editorial layouts, widget areas, block "
+"styles, and native WordPress settings."
+msgstr ""
+
+#: inc/block-editor.php:67
+msgid "A compact editorial callout with a heading and summary."
+msgstr ""
+
+#: inc/template-tags.php:470
+msgid "About Us"
+msgstr ""
+
+#: inc/customizer.php:245
+msgid "Adjust layout, typography, and the theme color system."
+msgstr ""
+
+#: header.php:150
+msgid "Advertisement"
+msgstr ""
+
+#: inc/customizer.php:130
+msgid "Advertisement destination URL"
+msgstr ""
+
+#: inc/customizer.php:149
+msgid "Advertisement image alternative text"
+msgstr ""
+
+#: inc/customizer.php:131
+msgid "Advertisement links are marked as sponsored."
+msgstr ""
+
+#: inc/template-tags.php:738
+msgid "All Posts"
+msgstr ""
+
+#: inc/setup.php:311 inc/template-tags.php:173 inc/template-tags.php:599
+msgid "All categories"
+msgstr ""
+
+#: archive.php:17 author.php:8 category.php:8 tag.php:8
+msgid "Archive"
+msgstr ""
+
+#: single.php:62
+msgid "Article information"
+msgstr ""
+
+#: single.php:113
+msgid "Article topics"
+msgstr ""
+
+#: single.php:117
+msgid "Author information"
+msgstr ""
+
+#: 404.php:21 footer.php:57
+msgid "Back to homepage"
+msgstr ""
+
+#: inc/customizer.php:266
+msgid "Base font size"
+msgstr ""
+
+#: inc/template-tags.php:495
+msgid "Blog"
+msgstr ""
+
+#: single.php:31
+msgid "Breadcrumb"
+msgstr ""
+
+#: header.php:256
+msgid "Breaking News"
+msgstr ""
+
+#: inc/customizer.php:40
+msgid "Breaking-news ticker"
+msgstr ""
+
+#: inc/customizer.php:328
+msgid "Card color"
+msgstr ""
+
+#: inc/customizer.php:259
+msgid "Card corner radius"
+msgstr ""
+
+#: footer.php:66 header.php:210 sidebar.php:74
+msgid "Categories"
+msgstr ""
+
+#: inc/setup.php:65
+msgid "Categories Dropdown Menu"
+msgstr ""
+
+#: inc/customizer.php:211
+msgid "Choose which editorial sections appear when the front page displays the latest posts."
+msgstr ""
+
+#: header.php:231 inc/setup.php:309
+msgid "Close menu"
+msgstr ""
+
+#: theme.json:1
+msgid "Cloud"
+msgstr ""
+
+#: comments.php:49
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/template-tags.php:487
+msgid "Contact"
+msgstr ""
+
+#: inc/customizer.php:29
+msgid "Control the visible header areas and the optional header advertisement."
+msgstr ""
+
+#: inc/customizer.php:330
+msgid "Dark-area color"
+msgstr ""
+
+#: inc/customizer.php:41
+msgid "Display recent posts in the ticker below the primary menu."
+msgstr ""
+
+#: inc/customizer.php:37
+msgid "Display the date, utility menu, and icon links above the logo."
+msgstr ""
+
+#: inc/customizer.php:90
+msgid "Display the uploaded advertisement banner in the header."
+msgstr ""
+
+#: front-page.php:471 front-page.php:476
+msgid "Editor's selection"
+msgstr ""
+
+#: inc/customizer.php:218
+msgid "Editor's selection section"
+msgstr ""
+
+#: inc/block-editor.php:66
+msgid "Editorial callout"
+msgstr ""
+
+#: front-page.php:285
+msgid "Editorial story highlights"
+msgstr ""
+
+#: theme.json:1
+msgid "Electric Purple"
+msgstr ""
+
+#: inc/customizer.php:175
+msgid "Enter the complete public profile URL for each icon in the top information bar."
+msgstr ""
+
+#: single.php:121
+msgid "Explore more articles from this author."
+msgstr ""
+
+#: header.php:23
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer.php:181
+msgid "Facebook URL"
+msgstr ""
+
+#: front-page.php:240
+msgid "Featured stories"
+msgstr ""
+
+#: inc/block-editor.php:59
+msgid "Featured story"
+msgstr ""
+
+#: inc/block-editor.php:51
+msgid "FeedBuzz"
+msgstr ""
+
+#: inc/block-editor.php:32
+msgid "FeedBuzz Accent"
+msgstr ""
+
+#: inc/customizer.php:244
+msgid "FeedBuzz Design"
+msgstr ""
+
+#: inc/block-editor.php:23
+msgid "FeedBuzz Frame"
+msgstr ""
+
+#: inc/customizer.php:28
+msgid "FeedBuzz Header"
+msgstr ""
+
+#: inc/customizer.php:210
+msgid "FeedBuzz Homepage"
+msgstr ""
+
+#: inc/customizer.php:174
+msgid "FeedBuzz Social Links"
+msgstr ""
+
+#: inc/block-editor.php:41
+msgid "FeedBuzz Soft Card"
+msgstr ""
+
+#: inc/setup.php:157
+msgid "Footer Column One"
+msgstr ""
+
+#: inc/setup.php:159
+msgid "Footer Column Three"
+msgstr ""
+
+#: inc/setup.php:158
+msgid "Footer Column Two"
+msgstr ""
+
+#: inc/setup.php:67
+msgid "Footer Menu"
+msgstr ""
+
+#: theme.json:1
+msgid "Fresh Green"
+msgstr ""
+
+#: inc/customizer.php:69
+msgid "Header Banner"
+msgstr ""
+
+#: inc/setup.php:64
+msgid "Header Category Menu"
+msgstr ""
+
+#: header.php:145
+msgid "Header advertisement"
+msgstr ""
+
+#: inc/customizer.php:109
+msgid "Header advertisement image"
+msgstr ""
+
+#: header.php:182 header.php:186
+msgid "Header search"
+msgstr ""
+
+#: inc/customizer.php:313
+msgid "Heading font weight"
+msgstr ""
+
+#: inc/template-tags.php:165 inc/template-tags.php:453 inc/template-tags.php:578 single.php:32
+msgid "Home"
+msgstr ""
+
+#: front-page.php:325
+msgid "Homepage posts pagination"
+msgstr ""
+
+#: front-page.php:383
+msgid "Homepage sidebar"
+msgstr ""
+
+#: front-page.php:287
+msgid "Ideas for Your Living Spaces"
+msgstr ""
+
+#: theme.json:1
+msgid "Ink"
+msgstr ""
+
+#: inc/template-tags.php:736
+msgid "Inspiring ideas for your home and tips for natural living."
+msgstr ""
+
+#: header.php:28
+msgid "Instagram"
+msgstr ""
+
+#: inc/customizer.php:183
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/template-tags.php:843
+msgid "Just now"
+msgstr ""
+
+#: footer.php:81 home.php:19 inc/template-tags.php:732 inc/template-tags.php:735 index.php:20
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/template-tags.php:896
+msgid "Latest comments from our readers"
+msgstr ""
+
+#: comments.php:28
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/customizer.php:315
+msgid "Light"
+msgstr ""
+
+#: inc/customizer.php:252
+msgid "Maximum content width"
+msgstr ""
+
+#: inc/customizer.php:317
+msgid "Medium"
+msgstr ""
+
+#: front-page.php:249
+msgid "More featured stories"
+msgstr ""
+
+#: inc/setup.php:310
+msgid "More menu items"
+msgstr ""
+
+#: home.php:18 index.php:19
+msgid "Newsroom"
+msgstr ""
+
+#: front-page.php:364 front-page.php:371
+msgid "Next Page"
+msgstr ""
+
+#: front-page.php:237
+msgid "Next featured story"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "No matching stories were found."
+msgstr ""
+
+#: front-page.php:277
+msgid "No stories yet"
+msgstr ""
+
+#: inc/customizer.php:316
+msgid "Normal"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing here yet"
+msgstr ""
+
+#: comments.php:24
+#, python-format
+msgctxt "comments title"
+msgid "One comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/customizer.php:167
+msgid "Open advertisement link in a new tab"
+msgstr ""
+
+#: header.php:106 inc/setup.php:308
+msgid "Open menu"
+msgstr ""
+
+#: header.php:154
+msgid "Opens in a new tab."
+msgstr ""
+
+#: template-parts/content-page.php:23
+msgid "Page"
+msgstr ""
+
+#: inc/customizer.php:329
+msgid "Page background color"
+msgstr ""
+
+#: single.php:104
+msgid "Post pages"
+msgstr ""
+
+#: front-page.php:332 front-page.php:339
+msgid "Previous Page"
+msgstr ""
+
+#: front-page.php:234
+msgid "Previous featured story"
+msgstr ""
+
+#: inc/setup.php:156
+msgid "Primary Sidebar"
+msgstr ""
+
+#: inc/customizer.php:323
+msgid "Primary accent color"
+msgstr ""
+
+#: header.php:229
+msgid "Primary menu"
+msgstr ""
+
+#: inc/template-tags.php:503
+msgid "Privacy Policy"
+msgstr ""
+
+#: header.php:278
+msgid "Published posts will appear here as a breaking-news stream."
+msgstr ""
+
+#: front-page.php:278
+msgid "Published posts will appear here in a flexible editorial grid."
+msgstr ""
+
+#: theme.json:1
+msgid "Pulse Pink"
+msgstr ""
+
+#: footer.php:99
+msgid "Quick Links"
+msgstr ""
+
+#: front-page.php:216
+msgid "Read article"
+msgstr ""
+
+#: inc/template-tags.php:247
+#, python-format
+msgid "Read “%s”"
+msgstr ""
+
+#: front-page.php:389
+msgid "Readers are following"
+msgstr ""
+
+#: inc/template-tags.php:890 inc/template-tags.php:895
+msgid "Recent Comments"
+msgstr ""
+
+#: inc/customizer.php:110
+msgid ""
+"Recommended image ratio: 728 × 90 pixels. The bundled default banner is shown below and can be "
+"replaced here."
+msgstr ""
+
+#: search.php:22
+#, python-format
+msgid "Results for “%s”"
+msgstr ""
+
+#: searchform.php:30 searchform.php:33 sidebar.php:60
+msgid "Search"
+msgstr ""
+
+#: searchform.php:17 searchform.php:23
+msgid "Search for:"
+msgstr ""
+
+#: search.php:17
+msgid "Search results"
+msgstr ""
+
+#: searchform.php:28
+msgid "Search site"
+msgstr ""
+
+#: searchform.php:20
+msgid "Search stories…"
+msgstr ""
+
+#: header.php:188
+msgid "Search the site…"
+msgstr ""
+
+#: inc/customizer.php:324
+msgid "Secondary accent color"
+msgstr ""
+
+#: front-page.php:242
+#, python-format
+msgid "Show featured story %d"
+msgstr ""
+
+#: inc/customizer.php:89
+msgid "Show header banner"
+msgstr ""
+
+#: sidebar.php:55
+msgid "Sidebar"
+msgstr ""
+
+#: footer.php:44
+msgid "Site information"
+msgstr ""
+
+#: header.php:46
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:78
+msgid "Social links"
+msgstr ""
+
+#: theme.json:1
+msgid "Sunny Yellow"
+msgstr ""
+
+#: inc/customizer.php:325
+msgid "Tertiary accent color"
+msgstr ""
+
+#: inc/customizer.php:327
+msgid "Text color"
+msgstr ""
+
+#: home.php:20 index.php:21
+msgid "The latest reporting, ideas and conversations."
+msgstr ""
+
+#: 404.php:17
+msgid "This story moved off the page."
+msgstr ""
+
+#: inc/customizer.php:36
+msgid "Top information bar"
+msgstr ""
+
+#: front-page.php:345
+msgid "Total"
+msgstr ""
+
+#: front-page.php:390
+msgid "Trending now"
+msgstr ""
+
+#: inc/customizer.php:217
+msgid "Trending-posts section"
+msgstr ""
+
+#: 404.php:18
+msgid "Try a search or return to the homepage to continue exploring."
+msgstr ""
+
+#: template-parts/content-none.php:15
+msgid "Try another search or publish new content."
+msgstr ""
+
+#: inc/template-tags.php:226 template-parts/content-page.php:24
+msgid "Untitled page"
+msgstr ""
+
+#: inc/template-tags.php:228
+msgid "Untitled post"
+msgstr ""
+
+#: inc/customizer.php:70
+msgid ""
+"Upload the header advertisement banner, preview the bundled default banner, and set its "
+"destination link here."
+msgstr ""
+
+#: inc/block-editor.php:60
+msgid "Use this editorial callout to highlight an important article or announcement."
+msgstr ""
+
+#: inc/setup.php:66
+msgid "Utility Menu"
+msgstr ""
+
+#: header.php:58
+msgid "Utility menu"
+msgstr ""
+
+#: front-page.php:479 inc/template-tags.php:899
+msgid "View all"
+msgstr ""
+
+#: single.php:53
+#, python-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: inc/template-tags.php:906
+msgid "View comment by %1$s on %2$s"
+msgstr ""
+
+#: inc/customizer.php:326
+msgid "Warning color"
+msgstr ""
+
+#: header.php:18
+msgid "X"
+msgstr ""
+
+#: inc/customizer.php:182
+msgid "X URL"
+msgstr ""
+
+#: header.php:33
+msgid "YouTube"
+msgstr ""
+
+#: inc/customizer.php:184
+msgid "YouTube URL"
+msgstr ""
+
+#: inc/block-editor.php:69
+msgid "callout"
+msgstr ""
+
+#: inc/template-tags.php:910
+msgid "commented on:"
+msgstr ""
+
+#: inc/block-editor.php:69
+msgid "featured"
+msgstr ""
+
+#: inc/block-editor.php:69
+msgid "news"
+msgstr ""
+
+#: front-page.php:345
+msgid "page"
+msgid_plural "pages"
+msgstr[0] ""
+msgstr[1] ""
+

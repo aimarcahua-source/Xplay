@@ -1,0 +1,9 @@
+= 1.0.2 =
+* Fixed category-menu keyboard navigation so the open list closes when keyboard focus leaves the menu while preserving Escape and pointer behavior.
+* Fixed primary navigation active-state handling so only the actual current top-level item is highlighted.
+* Made the designed Recent Comments section available on the homepage when approved comments exist.
+* Replaced the previous theme screenshot with the supplied 1200 × 900 screenshot.png and updated its GPL resource documentation.
+* Cleaned the public readme changelog/upgrade-notice structure and synchronized public version metadata.
+
+= 1.0.1 =
+* Initial WordPress.org submission of FeedBuzz.
