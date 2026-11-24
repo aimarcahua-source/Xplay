@@ -9,4 +9,8 @@ wp-content/backups/
 wp-content/updraft/
 wp-content/ai1wm-backups/
 wp-content/cache/
+wp-admin/
+wp-includes/
+wp-content/plugins/
+wp-content/upgrade/
 "@ | Out-File -Encoding ascii .gitignore
